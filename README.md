@@ -32,10 +32,6 @@ The production information system is a management information system that is hel
 ## Installation
 
 Using Command `php spark serve`
-    
-## Demo
-
-Insert gif or link to demo
 
 
 ## Badges
