@@ -4,6 +4,13 @@
     {
       "src": "public/index.php",
       "use": "@vercel/php"
+    },
+    {
+      "src": "composer.json",
+      "use": "@vercel/build-utils",
+      "config": {
+        "maxLambdaSize": "250mb"
+      }
     }
   ],
   "routes": [
