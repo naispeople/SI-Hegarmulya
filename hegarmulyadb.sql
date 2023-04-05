@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 07, 2023 at 06:29 PM
+-- Generation Time: Apr 05, 2023 at 06:48 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -143,12 +143,15 @@ CREATE TABLE `produksi` (
 --
 
 INSERT INTO `produksi` (`id_produksi`, `id_pesanan`, `id_bahan`, `estimasi`, `status`) VALUES
+('BTGT0223PDL', 'PDLA2244', 'BTGT0223', '2023-02-19', '1'),
 ('BTGT0223XTM', 'XTMY1231', 'BTGT0223', '2023-02-07', '6'),
 ('EJSA0310CNF', 'CNFP4233', 'EJSA0310', '2023-02-07', '4'),
-('JLIP1111GXK', 'GXKZ3113', 'JLIP1111', '2023-02-07', '5'),
+('JLIP1111GXK', 'GXKZ3113', 'JLIP1111', '2023-02-07', '6'),
 ('JXRH1410USR', 'USRL1323', 'JXRH1410', '2023-02-07', '4'),
-('KXDA0330SWD', 'SWDP2041', 'KXDA0330', '2023-02-07', '5'),
-('UMER3001CMM', 'CMMS2424', 'UMER3001', '2023-02-08', '6');
+('KARF0142FMS', 'FMSC0440', 'KARF0142', '2023-02-19', '1'),
+('KXDA0330SWD', 'SWDP2041', 'KXDA0330', '2023-02-07', '1'),
+('UMER3001CMM', 'CMMS2424', 'UMER3001', '2023-02-08', '6'),
+('WFNM2000DOL', 'DOLJ2011', 'WFNM2000', '2023-04-04', '0');
 
 -- --------------------------------------------------------
 
@@ -170,12 +173,12 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama`, `jabatan`, `email`, `username`, `password`) VALUES
-('A01', 'Andre Hilmi', 'admin', 'andre.hilmi88@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3'),
-('C01', 'pratama', 'ppic', 'pratama@gmail.com', 'ppic', '10445f9a51c9dce6a86c529d671e76a8'),
-('D01', 'papa', 'dyeing', 'papa@gmail.com', 'dyeing', '2a67fc49054b7eb8190b3511b5af92af'),
-('F01', 'dude', 'finishing', 'dude@gmail.com', 'finishing', '0c115e260619516ae760def05ae53567'),
-('M01', 'Manajer Produksi', 'manajer', 'manajer@gmail.com', 'Manajer Produksi', '69b731ea8f289cf16a192ce78a37b4f0'),
-('P01', 'mama', 'printing', 'mama@gmail.com', 'printing', '2d00721e59e89d24266c9cdbd9f10c6e');
+('A01', 'Admin', 'admin', 'admin@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3'),
+('C01', 'PPIC', 'ppic', 'ppic@gmail.com', 'ppic', '10445f9a51c9dce6a86c529d671e76a8'),
+('D01', 'dyeing', 'dyeing', 'dyeing@gmail.com', 'dyeing', '2a67fc49054b7eb8190b3511b5af92af'),
+('F01', 'Finishing', 'finishing', 'dude@gmail.com', 'finishing', '0c115e260619516ae760def05ae53567'),
+('M01', 'Manajer Produksi', 'manajer', 'manajer@gmail.com', 'manajer', '69b731ea8f289cf16a192ce78a37b4f0'),
+('P01', 'Printing', 'printing', 'printing@gmail.com', 'printing', '2d00721e59e89d24266c9cdbd9f10c6e');
 
 --
 -- Indexes for dumped tables
