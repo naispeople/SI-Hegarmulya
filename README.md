@@ -1,6 +1,52 @@
 <h1 align="center">Hi 👋, I'm Nais Farid</h1>
 <h3 align="center">A passionate web developer from Indonesia</h3>
 
+
+# Production Information System Study Case in PT Hegarmulya
+
+The production information system is a management information system that is helpful for assisting production tasks and providing details about activities connected to the planning and management of production processes, both for products and services.
+
+## Feature 
+
+### Admin
+- Create Read Update Delete User Account.
+### Manajer Produksi
+- Read Order Data & Production Data.
+- Update Order Data to Production Data.
+- Delete Production Data.
+### PPIC
+- Create Read Update Delete Material Data.
+- Create Read Update Delete Order Data.
+### Kabag. Dyeing
+- Read Production Data.
+- Update Dyeing Production Data.
+### Kabag. Printing
+- Read Production Data.
+- Update Printing Production Data.
+### Kabag. Finishing
+- Read Production Data.
+- Update Finishing Production Data.
+
+
+
+## Installation
+
+Using Command `php spark serve`
+    
+## Demo
+
+Insert gif or link to demo
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/faridnais8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="faridnais8" height="30" width="40" /></a>
