@@ -30,8 +30,9 @@ The production information system is a management information system that is hel
 
 
 ## Installation
-
-Using Command `php spark serve`
+- Upload the '.sql' file to Local SQL Server.
+- Install Composer.
+- Using Command `php spark serve`.
 
 
 ## Badges
