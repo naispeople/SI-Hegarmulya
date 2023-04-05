@@ -1,0 +1,28 @@
+.kasirContainer {
+  height: 100vh;
+}
+.kasir-container {
+  height: 98vh;
+}
+.kasir-container > div {
+  position: relative;
+}
+.input-barang {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.removebordertable {
+  border-bottom:none;!important
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
